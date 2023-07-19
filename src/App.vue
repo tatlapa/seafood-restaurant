@@ -69,9 +69,9 @@
     <div class="bg-[url('../images/image_4.png')] bg-cover bg-center bg-norepeat w-full desktop:w-1/2 h-[543px]  ">
     </div>
     <div class="flex desktop:flex-col desktop:w-1/2 desktop:justify-between gap-2">
-      <span class="bg-[url('../images/image_9.png')] desktop:h-1/2 w-1/2 h-48">
+      <span class="bg-[url('../images/image_9.png')] bg-cover bg-center bg-no-repeat desktop:h-1/2 w-1/2 h-48">
       </span>
-      <span class="bg-[url('../images/image_13.png')] desktop:h-1/2 w-1/2 h-48 desktop:self-end">
+      <span class="bg-[url('../images/image_13.png')] bg-cover bg-center bg-no-repeat desktop:h-1/2 w-1/2 h-48 desktop:self-end">
       </span>
     </div>
   </section>
@@ -201,8 +201,8 @@
 
   <section class="desktop:flex w-full gap-2 px-6">
     <div class="bg-[url('../images/image_1.png')] bg-cover bg-center bg-norepeat w-1/3 desktop:h-[300px]"></div>
-    <div class="bg-[url('../images/image_6.png')] desktop:h-[543px] w-1/2 gap-2"></div>
-    <div class="bg-[url('../images/image_10.png')] w-1/6 desktop:h-60 self-end"></div>
+    <div class="bg-[url('../images/image_6.png')] bg-cover bg-center bg-no-repeat desktop:h-[543px] w-1/2 gap-2"></div>
+    <div class="bg-[url('../images/image_10.png')] bg-cover bg-center bg-no-repeat w-1/6 desktop:h-60 self-end"></div>
   </section>
 
 
@@ -211,25 +211,22 @@
     <div class="bg-[url('../images/image_14.png')] bg-cover bg-center bg-norepeat w-1/2 desktop:h-[543px]">
     </div>
     <div class="flex flex-col w-1/2 justify-between gap-2">
-      <span class="bg-[url('../images/image_17.png')] h-1/2 w-1/2 h-48">
+      <span class="bg-[url('../images/image_17.png')] bg-cover bg-center bg-no-repeat h-1/2 w-1/2 ">
       </span>
-      <span class="bg-[url('../images/image_19.png')] h-1/2 w-1/2 h-48 self-end">
+      <span class="bg-[url('../images/image_19.png')] bg-cover bg-center bg-no-repeat h-1/2 w-1/2 self-end">
       </span>
     </div>
   </section>
 
 
-  <section class="desktop:flex desktop:w-full desktop:h-[543px] desktop:gap-2 desktop:px-6">
-    <div class="flex h-full w-2/3">
-      <div class="flex-col h-1/2 w-1/3">
-        <span class="bg-[url('../images/image_20.png')] bg-cover bg-center bg-no-repeat h-1/2"></span>
-      </div>
-      <div class="flex-col h-1/2 w-1/3 self-end">
-        <span class="bg-[url('../images/image_21.png')] bg-cover bg-center bg-no-repeat h-1/2"></span>
-      </div>
-      <div class="flex-col h-1/2 w-1/3">
-        <span class="bg-[url('../images/image_5.png')] bg-cover bg-center bg-no-repeat h-1/2"></span>
-      </div>
+   <section class="desktop:flex desktop:w-full desktop:h-[543px] desktop:gap-2 desktop:px-6">
+    <div class="flex h-full w-2/3"> 
+      <span class="bg-[url('../images/image_20.png')] bg-cover bg-center bg-no-repeat flex-col h-1/2 w-1/3">
+      </span>
+      <span class="bg-[url('../images/image_5.png')] bg-cover bg-center bg-no-repeat flex-col h-1/2 w-1/3 self-end">
+      </span>
+      <span class="bg-[url('../images/image_21.png')] bg-cover bg-center bg-no-repeat flex-col h-1/2 w-1/3">
+      </span>
     </div>
 
     <div class="bg-[url('../images/image_22.png')] bg-cover bg-center bg-no-repeat w-1/3 desktop:h-full">
@@ -241,7 +238,7 @@
 
   <section>
     <div class="flex flex-col px-3 py-10 gap-4 my-10">
-      <span class="text-2xl uppercase">
+      <span class="text-2xl desktop:text-8xl text-center uppercase">
         <p>We buy our products only from trusted suppliers in ACCRA to guarantee The highest quality of our dishes. </p>
       </span>
     </div>
@@ -276,7 +273,7 @@
         <p>E138°00'N36°00'</p>
       </span>
       <span>
-        <ul class="text-xs text-[#7C7C7C] font-aperçupro">
+        <ul class="text-xs desktop:text-xl text-[#7C7C7C] font-aperçupro">
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">Instagram</a></li>
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">Telegram</a></li>
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">Youtube</a></li>
@@ -287,7 +284,7 @@
     </div>
     <div class="flex flex-col gap-10 pr-6 py-4 font-aperçupro">
       <span>
-        <ul class="text-xs text-right text-white">
+        <ul class="text-xs desktop:text-xl text-right text-white">
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">History</a></li>
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">Menu</a></li>
           <li><a href="#" class="desktop:transition-colors duration-300 hover:text-yellow-500">Trim</a></li>
@@ -308,7 +305,7 @@
   </section>
 
   <section class="flex justify-center items-center bg-[#151515] w-full h-40">
-    <span class="bg-[url('../images/image_cover2.png')] w-[340px] h-20 bg-cover bg-center bg-norepeat"></span>
+    <span class="bg-[url('../images/image_cover2.png')] w-[340px] desktop:w-full h-20 bg-cover bg-center bg-norepeat"></span>
   </section>
 </template>
 

@@ -3,8 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      sfprodisplay: ["SF Pro Display", "Arial", "sans-serif"],
-      poppins: ["Poppins"],
+      aperçupro: ['Apercu Pro', 'sans-serif'],
+      roslindale: ["Roslindale"],
     },
     screens: {
       tablet: "640px",
@@ -20,8 +20,8 @@ export default {
       extend: { important: ["responsive", "hover"] },
     },
   },
-  plugins: [require("tailwindcss-font-inter")],
+
+  plugins: [],
 
   important: true,
 };
-
